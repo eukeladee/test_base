@@ -1,11 +1,11 @@
 /**
  * @file public.hpp
- * @author eukelade (mau.guzmans@duocuc.cl)
+ * @author eukelade mau.guzmans@duocuc.cl
  * @brief 
  * @version 0.1
  * @date 2022-12-06
  * 
- * @copyright Copyright (c) 2022
+ * @copyright Copyright (c) 2022 Mauricio Guzmán mau.guzmans@duocuc.cl
  * 
  */
 
@@ -19,8 +19,10 @@
 #include<iostream>
 #include<string>
 
-std::string pub_StrToAscii(std::string str);
+std::string pub_StrToAscii(std::string string_input, bool human_readable);
 
-void pubverb_StrToAscii(std::string str);
+void pub_printAsciiValues();
+
+std::string pub_errorType(short int error_code);
 
 #endif // PUBLIC_HPP
