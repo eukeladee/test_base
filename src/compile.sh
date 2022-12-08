@@ -1,3 +1,3 @@
 #! /bin/bash
 
-g++ main.cpp public.cpp -o std.out -Wall -std=c++20 && ./att
+g++ main.cpp public.cpp -o att -Wall -std=c++20

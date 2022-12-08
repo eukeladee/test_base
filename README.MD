@@ -1,14 +1,12 @@
 # CANDL Project <!-- omit in toc -->
 ## C++ Developer and Learning Notes <!-- omit in toc -->
 
----
-
-> c++, cmake, git, markdown, TODO - README - LICENSE - CHANGELOG, bash
-
 ## Table of Contents <!-- omit in toc -->
 - [Introduction](#introduction)
 - [Things to Learn](#things-to-learn)
 - [ASCII To Text Converter - ATT -](#ascii-to-text-converter---att--)
+  - [Installation \& Usage](#installation--usage)
+  - [Caution](#caution)
 - [License](#license)
 
 ## Introduction
@@ -17,9 +15,30 @@ Hey there! I'll use this repo just for educational purposes, everything that I c
 
 ## Things to Learn
 
+``` text
+cmake, bash, c++
+c, meson-build, doxygen,
+TODO - LICENSE - README Files,
+git, algorithms & data structures. 
+```
+
 ## ASCII To Text Converter - ATT -
 
-At this version `0.1` the program will admit a reduce ammount of characters. To be more precise, this program will only work those if the char is between 32 and 126 (32 as space). There is a list below for the admited letters and signs in this version.
+### Installation & Usage
+
+To use this program just run this commands in your terminal.
+
+`$ git clone https://github.com/eukeladee/test_base.git`
+
+`$ cd test_base/src/`
+
+`$ chmod u+x ./compile.sh`
+
+`$ ./att "text"`
+
+### Caution
+
+At this version `v0.55` the program will admit a reduce ammount of characters. To be more precise, this program will onlyif the char is between 32 and 126 (32 as space). There is a list below for the admited letters and signs in this version.
 
 ```
 32 ->  

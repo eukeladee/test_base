@@ -11,7 +11,8 @@
 
 #include"public.hpp"
 
-//  FIXME: Function doesn't return all the ASCII values correctly
+//  FIXME: Function doesn't return all the ASCII values correctly, maybe it's just a terminal issue with the encoding but I will try to catch that in later versions.
+
 //  Returns a string with ascii values of each char contained in string_input
 std::string pub_StrToAscii(std::string string_input, bool human_readable){
     
